@@ -1,0 +1,64 @@
+[
+  { 
+   "speed":[
+		   {
+		    "id":1,
+			"showStatus":1,
+			"instruction":"Select the correct option.",
+			"caseStudy":"The founding team of FuturePen has been working on a digital pen product in the last six months. They are a start-up in stealth mode and have now recently developed a proof-of-concept (POC). The POC has basic functionality implemented that can allow them to demonstrate to potential investors. Their development plans include a radical design of pens, custom-designed hardware that improves the accuracy, an app that interfaces with the pen, and much more. The team is also thinking of selling directly to early adopters in India, US, and China through a crowdsourcing platform. Their goal is to sell 10000 pens as a trial launch. Below are some situations where your insights on Intellectual Property can help FuturePen.",
+			"mcqQuestion":[
+                           {
+							"quesId":1,
+                            "ques":"Which category of copyright protects the code written for their app?",
+							"correctAns":1,
+						    "answer":[
+									  {
+									   "option":"Computer software"
+									  },
+									  {
+									   "option":"Literary works"
+									  },
+									  {
+									   "option":"Artistic work"
+									  },
+									  {
+									   "option":"Musical work"
+									  }
+									]
+				      },
+					  {
+							"quesId":2,
+                            "ques":"With regards to the look and feel of the pen (non-technical visual features), what do you recommend?",
+							"correctAns":3,
+						    "answer":[
+									  {
+									   "option":"File a patent application"
+									  },
+									  {
+									   "option":"File a copyright application"
+									  },
+									  {
+									   "option":"File an industrial design application"
+									  },
+									  {
+									   "option":"File a trademark application"
+									  }
+									]
+				      }
+                    ]
+		   }
+	],
+  "scoremsg":[
+		   {
+			"msg":"You still need to improve your reading capabilities. <br/>Please try again."
+		   },
+		   {
+			"msg":"You are an average reader. <br/>Please try again to improve your reading speed further."
+		   },
+		   {
+			"msg":"You got it right. <br/>You are an advanced reader."
+		   }
+	]
+ 
+ }
+]

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/libraries/plugins/auth
+END
+AuthenticationConfig.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/libraries/plugins/auth/AuthenticationConfig.class.php
+END
+AuthenticationCookie.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/libraries/plugins/auth/AuthenticationCookie.class.php
+END
+AuthenticationSignon.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/libraries/plugins/auth/AuthenticationSignon.class.php
+END
+AuthenticationHttp.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/libraries/plugins/auth/AuthenticationHttp.class.php
+END

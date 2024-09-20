@@ -1,0 +1,44 @@
+[
+  { 
+   "speed":[
+		   {
+		   
+		    "id":1,
+			"instruction":"Select the correct option and click Submit.",
+			"mcqQuestion":[
+                           {
+							"quesId":1,
+                            "ques":"Can you tell which one of the following does not quality for IP protection?",
+							"correctAns":4,
+						    "answer":[
+									  {
+									   "option":"The McDonalds logo"
+									  },
+									  {
+									   "option":"Shape of the Coca-Cola bottle"
+									  },
+									  {
+									   "option":"The shape of footwear"
+									  },
+									  {
+									   "option":"A method of playing Chess"
+									  }
+									]
+				      }
+                    ]
+		   }
+	],
+  "scoremsg":[
+		   {
+			"msg":"You still need to improve your reading capabilities. <br/>Please try again."
+		   },
+		   {
+			"msg":"You are an average reader. <br/>Please try again to improve your reading speed further."
+		   },
+		   {
+			"msg":"You got it right. <br/>You are an advanced reader."
+		   }
+	]
+ 
+ }
+]

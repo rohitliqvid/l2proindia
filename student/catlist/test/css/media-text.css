@@ -1,0 +1,47 @@
+.text
+    {
+    position:relative;
+    width:50%;
+    height:90%;
+    float:left;
+    text-align:left;
+    padding:20px;
+    color:#fff;
+    margin:0 auto;
+    border: 0px solid #eee;
+    overflow-y: auto;
+  }
+        
+ .media 
+    {
+     position:relative;
+     width:50%;
+     
+    
+     float:left;
+     display:flex;
+     align-items:center;
+     text-align:left;
+     padding:10px;
+     color:#fff;
+     margin:0 auto;
+     border: 0px solid #eee;
+     overflow-y: auto;
+   }
+        
+  .media img
+    {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width:100%;
+    }
+       
+    #video
+    {
+      display: block;
+      width:100%;
+      margin-left: auto;
+      margin-right: auto;
+	  margin-top: 60px;
+    }

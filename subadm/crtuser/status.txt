@@ -1,0 +1,18 @@
+Mail Not Sent to : testuser@email.comdue to - The following From address failed: customercare@liqvid.com : MAIL not accepted from server,530,5.7.0 Authentication Required. Learn more at
+530 5.7.0  https://support.google.com/mail/?p=WantAuthError n28-20020a056a00213c00b006c34a04c782sm7480364pfj.61 - gsmtp
+<p>SMTP server error: 5.7.0 Authentication Required. Learn more at
+530 5.7.0  https://support.google.com/mail/?p=WantAuthError n28-20020a056a00213c00b006c34a04c782sm7480364pfj.61 - gsmtp
+</p>
+<p>SMTP server error: 5.7.0 Authentication Required. Learn more at
+530 5.7.0  https://support.google.com/mail/?p=WantAuthError n28-20020a056a00213c00b006c34a04c782sm7480364pfj.61 - gsmtp
+</p>
+
+Mail Not Sent to : mukund.chaudhary@liqvid.comdue to - The following From address failed: customercare@liqvid.com : MAIL not accepted from server,530,5.7.0 Authentication Required. Learn more at
+530 5.7.0  https://support.google.com/mail/?p=WantAuthError n18-20020a170902e55200b001c0bf60ba5csm934851plf.272 - gsmtp
+<p>SMTP server error: 5.7.0 Authentication Required. Learn more at
+530 5.7.0  https://support.google.com/mail/?p=WantAuthError n18-20020a170902e55200b001c0bf60ba5csm934851plf.272 - gsmtp
+</p>
+<p>SMTP server error: 5.7.0 Authentication Required. Learn more at
+530 5.7.0  https://support.google.com/mail/?p=WantAuthError n18-20020a170902e55200b001c0bf60ba5csm934851plf.272 - gsmtp
+</p>
+

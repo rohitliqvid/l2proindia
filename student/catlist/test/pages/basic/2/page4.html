@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta http-equiv="x-ua-compatible" content="IE=edge" >
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	 <!-- bootstrap/4.3.1-->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/common.css"/>
+	<!-- jquery/3.4.0 -->
+	<script src="js/jquery.min.js"></script>
+	<!-- bootstrap/4.3.1-->
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/popper.min.js"></script>
+
+	</head>
+	<body>	 
+  <!-- ============= Start Ttile Div============= -->
+	   <div class="title">
+	   <div class="titleLine skew">
+	   &nbsp;<span> Brain Teaser 2</span>
+	  </div><div class="titleLine1 skew">&nbsp;</div><div class="titleLine2 skew">&nbsp;</div><div class="titleLine3 skew">&nbsp;</div>
+	  </div>
+    <!-- =============End Ttile Div============= -->
+<!-- =============Start Content Div============= -->
+	<div class="container">
+	  <div class="row"> 
+	<div class="col-sm-12 contentBg" id="contentBg">
+	
+	 <!-- start  speed Reading MCQ-->
+           
+   <div  id="quizDiv">
+       <div class="quizContentDetail">
+               
+                    <div id="ques-block-1" class="ques-block" qid="" qtype="">
+                      
+                        <!--quiz Type-->
+                        <div  class="quesQuizType" >
+
+                        <div class="quesBg">
+
+                            <div class="quesContentDiv"> 
+                               <!--<span class="pull-left quesNo"></span>-->
+                                <span class="col-md-12 quesTxt"></span>
+                            </div>
+							  <div class="instruction blue">Select all that apply.
+</div>
+                            <div class="ansBg">
+                                    
+                                    <!-- Start ///MCQ ans-->
+                                        <div class="mcqAnsDiv" style="display:block">
+           
+                                            <div class="mcqAns" id="mcqAns1">
+
+                                                <div class="checkBox radio radio-danger">
+                                                    <input type="radio" name="RadioGroup1"  value="option1"  class="ans-label unchecked" id="1">
+                                                    <label for="1" class="ans-label unchecked"  id="l1">
+                                                      
+                                                    </label>
+                                                </div>
+                                                
+                                            </div>
+											<div class="mcqAns" id="mcqAns2">
+
+                                                <div class="checkBox radio radio-danger">
+                                                    <input type="radio" name="RadioGroup1"  value="option2"  class="ans-label unchecked" id="2">
+                                                    <label for="2" class="ans-label unchecked"  id="l2">
+                                                      
+                                                    </label>
+                                                </div>
+                                                
+                                            </div>
+										<div class="mcqAns" id="mcqAns3">
+
+                                                <div class="checkBox radio radio-danger">
+                                                    <input type="radio" name="RadioGroup1"  value="option3"  class="ans-label unchecked" id="3">
+                                                    <label for="3" class="ans-label unchecked"  id="l3">
+                                                       
+                                                    </label>
+                                                </div>
+                                                
+                                            </div>
+										<div class="mcqAns" id="mcqAns4">
+
+                                                <div class="checkBox radio radio-danger">
+                                                    <input type="radio" name="RadioGroup1"  value="option4"  class="ans-label unchecked" id="4">
+                                                    <label for="4" class="ans-label unchecked"  id="l4">
+                                                      
+                                                    </label>
+                                                </div>
+                                                
+                                            </div>
+                                  
+                                    </div>
+                               
+                                <!-- end Start ///MCQ ans-->
+        
+       
+
+                                        </div>
+
+                                    </div>
+                      
+
+     
+
+                            </div>
+
+ 
+                <div class="btnBg text-left">
+				  <button id="btnSubmit" type="button" class="btn" current_ques_no="">Submit</button>
+                     <!--<button id="btnSubmit" type="button" class="bdrNone bgNone"><img class="btnImg" src="media/images/submit.png"></button>
+                     <button id="btnNext" type="button" class="btn btn-blue btnSubmit btnSubmit50 btnBlue displayNone" current_ques_no="">CONTINUE</button>-->
+                </div>
+			  </div>	 
+            </div>
+  </div>   
+
+ <!--end  speed Reading MCQ -->
+
+	 <!-- ============End Content Div============= -->
+	 <!-- =============Start show popup Div============= -->
+	
+	<div class="col-sm-12 popupMarginTop popupBg hide showquesAttempt bdrBlue" id="showquesAttempt">
+	<div class="bold text-right"><a id="btnClose" href="javascript:void(0)" class="black">Close</a></div>
+		<div class="marginTop20"></div>
+	   <p class="ansPara" id="ansRightPara"></p>
+	   <p class="ansPara" id="ansWrongPara"></p>
+	   <div class="text-center"> 
+	  <!-- <button id="btnNext" type="button" class="btn" current_ques_no="">Continue</button>--></div>
+	  	<div class="marginTop20"></div>
+	</div><!-- =============End show popup Div============= -->
+ 
+</div>
+
+ </div>
+</div>
+<!-- =============Start para  Div============= -->	 
+<script src="js/common.js"></script>	 
+<!-- =============End para Div============= --> 
+ </body>
+</html>
+
+<script>
+
+  $(document).ready(function () {
+
+	  var data;
+	  var showId=1;// set deafult qustion set
+      var dataAPI = "data/data.json?" + new Date().getTime();
+	  var sizeWidth = 10;
+
+	  $.ajaxSetup({cache:false});
+	  $.getJSON( dataAPI, {
+		tags: "MCQ",
+		tagmode: "any",
+		format: "json"
+	  }).done(function( data ) {
+		    var dataItems = data;
+			 $.each(dataItems, function(idx, obj) {
+			 var cnt=showId-1;
+			 var cId=obj.speed[cnt].id;
+			 var ins=obj.speed[cnt].instruction;
+             var mcq=obj.speed[cnt].mcqQuestion;
+             var qId='', ques='',cAns='',ansoption='',ansText='',ans,checkans,ques_no,next_ques,total_ques,total_correct_ans_till_now = 0, total_ques_attempted = 1,msgText;
+
+			// alert(showId+'=='+cId+'=='+wordSet)
+			 if(showId==cId){
+			   total_ques= mcq.length;
+			   if (total_ques > 0) {
+					$("#quesAttemp").text('1');
+					$("#totalQues").text(total_ques);
+				}
+				/*  ###### Start  enable disable in mcq #############  */
+						$(".ans-label").click(function () {
+							var checked_count = 0;
+							$(this).closest('.mcqAnsDiv').find('.ans-label').each(function () {
+								if ($(this).hasClass('checked')) {
+									checked_count++;
+								}
+							});
+							if (checked_count > 0) {
+								$("#btnSubmit").prop('disabled', false);
+							} else {
+								$("#btnSubmit").prop('disabled', true);
+							}
+
+						});
+					 $("#btnSubmit").prop('disabled', true);
+					 $("#instruction").html(ins);
+					
+					 var i= 0;
+					 ques(i);
+                 function ques(para){
+				 
+					qId= mcq[i].quesId;
+					ques= mcq[i].ques;
+					cAns=mcq[i].correctAns;
+					ansoption=mcq[i].answer;
+					//$(".quesNo").html('Q.'+qId);
+					$(".quesTxt").html(ques);
+					$("#btnNext").attr('current_ques_no',qId);
+					$("#ques-block-1").attr('qid',qId);
+					
+					for(var j=0;j<ansoption.length;j++){
+						//alert(ansoption.length);
+						var count=j+parseInt(1);
+						ansText =ansoption[j].option;
+						$("#l"+count).html(ansText);
+						if(ansoption.length==2){
+						 $("#mcqAns3").hide();
+						 $("#mcqAns4").hide();
+						}
+
+					}
+                    		
+
+				}
+				$("#btnSubmit").click(function(){
+					$("#ques-block-1").find('.mcqAnsDiv .ans-label').each(function () {
+						if ($(this).hasClass('checked')) {
+							ans = $(this).attr('id');
+							//alert(ans)
+						}
+					});
+				    $(this).hide();
+					$("#showquesAttempt").hide();
+					//$(".showCorrectAnsDiv").hide();
+					//$(".showWrongAnsDiv").hide();
+					// show loading ... 
+                        if (cAns == ans) {
+                            var wtxt = $("#l"+cAns).html();
+                            total_correct_ans_till_now++;
+							$("#ansWrongPara").html('');
+							$("#ansRightPara").html('Correct Feedback: That’s correct. A method of playing chess does not quality for IP protection.');
+                           // $("#ansRightPara").html(wtxt);
+                           // $("#ansWrongPara").html('');
+                           // $(".showCorrectAnsDiv").show();
+                            //$(".showWrongAnsDiv").hide();
+                           //// var aud = document.getElementById('correct-ans-audio');
+                            ////aud.play();
+                        } else {
+						    var rightAns=$("#l"+cAns).html();
+							$("#ansWrongPara").html('Incorrect Feedback: That’s incorrect. While the McDonalds logo and the Coca-Cola bottle can be trademarks, aesthetic features of the shape of a footwear can qualify as an industrial design. <br/>But, a method of playing chess does not qualify for protection under any of the types of IP we have read about above. <br/>Moreover, as we will learn later, methods of playing games are specifically excluded from the scope of patentability under the Indian Patents law.<br/> However, methods which are able to be kept in secrecy are capable of being a trade secret protection/confidential appropriation.');
+							$("#ansRightPara").html('');
+							
+                            //var wtxt = 'Right answer is: <span class="blue">' + rightAns+' </span>';
+                            //$("#ansWrongPara").html(wtxt);
+                           // $("#ansRightPara").html('');
+                           // $(".showCorrectAnsDiv").hide();
+                           // $(".showWrongAnsDiv").show();
+                           // //var aud = document.getElementById('wrong-ans-audio');
+                            ////aud.play();
+                        }
+                       
+                     $("#showquesAttempt").show();
+					 $(".mcqAnsDiv").addClass("cursorNone");
+                   
+					$("#ques-block-1").hide();
+					$("#btnSubmit").hide();
+				  
+				}); 
+				$("#btnClose").click(function(){   
+					 
+					$("#btnSubmit").show();
+					$("#btnSubmit").prop('disabled', true);
+					$(".mcqAnsDiv").addClass("cursorNone");
+					$("#ques-block-1").show();
+					$("#showquesAttempt").hide();
+	          });
+				
+				$("#btnNext").click(function(){   
+					 $("#btnSubmit").prop('disabled', true);
+					 $("#ansRightPara").html('');
+					  $("#ansWrongPara").html('');
+				/*	//ques_no = $("#btnNext").attr('current_ques_no',qId);
+					next_ques = qId+1;
+					//alert(qId+'=='+next_ques+"=="+total_ques);
+
+					if (next_ques > total_ques) {
+						// show final screen 
+						var rating = 0;
+						rating = ((total_correct_ans_till_now / total_ques) * 100);
+						rating = Math.floor(rating);
+						 //start score fn
+					     $('#scoreId').text(rating);
+						 //scoreStr = score.replace(".", "");
+						 var classScore = 'p' + rating;
+						$(".scoreId").addClass(classScore);
+							//alert(ansoption.length);
+							if(rating>=0 && rating<30){
+							  msgText =obj.scoremsg[0].msg;							
+							  document.getElementById('scoreMsg').innerHTML=msgText;
+							}	
+							if(rating>=31 && rating <65)	{
+							   msgText =obj.scoremsg[1].msg;	
+							   document.getElementById('scoreMsg').innerHTML=msgText;
+							}
+							if(rating >=65 && rating<=100)	{
+								msgText =obj.scoremsg[2].msg;	
+								document.getElementById('scoreMsg').innerHTML=msgText;
+								document.getElementById('welldone').innerHTML='Well done!';
+							}
+							
+						//// save this quiz score in data base 
+
+						//$("#rightScoreID").html(total_correct_ans_till_now);
+						////$("#totalScoreID").html(total_ques);
+						$("#starScoreID").html(rating);
+						//$("#complete").show();
+						//$(".showquesAttempt").hide();
+						$("#btnNext").hide();
+						$(".ques-block").hide();
+						//$(".btnBg,.topProgressBg").hide();
+						return;
+					} */
+					 $(".quesNo").html('');
+					 $(".quesTxt").html('');
+					 $("#l"+count).html('');
+					 $('.mcqAnsDiv .ans-label').removeClass('checked');
+					 $('.mcqAnsDiv .ans-label').addClass('unchecked');
+						 i= i+parseInt(1);
+					 //ques(i);
+						qId= mcq[i].quesId;
+						ques= mcq[i].ques;
+						cAns=mcq[i].correctAns;
+						ansoption=mcq[i].answer;
+						$(".quesNo").html('Q.'+qId);
+						$(".quesTxt").html(ques);
+						$("#btnNext").attr('current_ques_no',qId);
+						$("#quesAttemp").text(qId);
+					
+					//$("#ques-block-1").attr('qid',qId);
+					var ans = '';
+					for(var j=0;j<ansoption.length;j++){
+						//alert(ansoption.length);
+						var count=j+parseInt(1);
+						ans =ansoption[j].option;
+						$("#l"+count).html(ans);
+
+					}
+				    if(qId==mcq.length){
+						 $("#btnNext").hide();
+					     $("#btnSubmit").show();
+						 $("#ques-block-1").show();
+						 $(".mcqAnsDiv").addClass("cursorNone");
+						}
+					// show next question 
+					
+					$("#btnSubmit").show();
+					 $(".mcqAnsDiv").removeClass("cursorNone");
+					$("#ques-block-1").show();
+					$("#showquesAttempt").hide();
+					$("#btnNext").hide();
+					//total_ques_attempted++;
+				   // progressBar();
+	          });
+			  
+            }
+		});
+   });
+
+        $('.mcqAnsDiv .ans-label').on('click', function () {
+            //   $('.unchecked').not(this).removeClass('checked');
+            //   $(this).toggleClass('checked','unchecked');
+            var id_clicked = $(this).attr('id');
+            $(this).closest('.mcqAnsDiv').find('.ans-label').each(function () {
+                if ($(this).attr('id') != id_clicked) {
+                    $(this).removeClass('checked');
+                } else {
+                    //$(this).toggleClass('checked', 'unchecked');
+                    $(this).addClass('checked');
+                    $(this).removeClass('unchecked');
+					 $("#btnSubmit").prop('disabled', false);
+                }
+            });
+        });
+		
+    });
+
+
+
+ </script>
+

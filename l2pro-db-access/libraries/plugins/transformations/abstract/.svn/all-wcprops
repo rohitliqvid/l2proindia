@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/libraries/plugins/transformations/abstract
+END
+InlineTransformationsPlugin.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/libraries/plugins/transformations/abstract/InlineTransformationsPlugin.class.php
+END
+SQLTransformationsPlugin.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/libraries/plugins/transformations/abstract/SQLTransformationsPlugin.class.php
+END
+ImageLinkTransformationsPlugin.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/libraries/plugins/transformations/abstract/ImageLinkTransformationsPlugin.class.php
+END
+SubstringTransformationsPlugin.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/libraries/plugins/transformations/abstract/SubstringTransformationsPlugin.class.php
+END
+ExternalTransformationsPlugin.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/libraries/plugins/transformations/abstract/ExternalTransformationsPlugin.class.php
+END
+TextLinkTransformationsPlugin.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/libraries/plugins/transformations/abstract/TextLinkTransformationsPlugin.class.php
+END
+HexTransformationsPlugin.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/libraries/plugins/transformations/abstract/HexTransformationsPlugin.class.php
+END
+FormattedTransformationsPlugin.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/libraries/plugins/transformations/abstract/FormattedTransformationsPlugin.class.php
+END
+LongToIPv4TransformationsPlugin.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/libraries/plugins/transformations/abstract/LongToIPv4TransformationsPlugin.class.php
+END
+TextImageLinkTransformationsPlugin.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/libraries/plugins/transformations/abstract/TextImageLinkTransformationsPlugin.class.php
+END
+DateFormatTransformationsPlugin.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/libraries/plugins/transformations/abstract/DateFormatTransformationsPlugin.class.php
+END
+AppendTransformationsPlugin.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/libraries/plugins/transformations/abstract/AppendTransformationsPlugin.class.php
+END
+DownloadTransformationsPlugin.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/libraries/plugins/transformations/abstract/DownloadTransformationsPlugin.class.php
+END

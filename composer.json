@@ -1,0 +1,14 @@
+{
+    "name": "ebizneeds/l2pro",
+    "autoload": {
+        "psr-4": {
+            "Ebizneeds\\L2pro\\": "src/"
+        }
+    },
+    "require": {
+        "google/apiclient": "^2.0",
+        "facebook/graph-sdk": "^5.1",
+        "hybridauth/hybridauth": "~3.0",
+        "abraham/twitteroauth": "^1.0"
+    }
+}

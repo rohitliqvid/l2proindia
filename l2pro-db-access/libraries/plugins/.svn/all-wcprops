@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/libraries/plugins
+END
+PluginObserver.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/libraries/plugins/PluginObserver.class.php
+END
+TransformationsPlugin.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/libraries/plugins/TransformationsPlugin.class.php
+END
+ImportPlugin.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/libraries/plugins/ImportPlugin.class.php
+END
+PluginManager.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/libraries/plugins/PluginManager.class.php
+END
+UploadInterface.int.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/libraries/plugins/UploadInterface.int.php
+END
+AuthenticationPlugin.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/libraries/plugins/AuthenticationPlugin.class.php
+END
+TransformationsInterface.int.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/libraries/plugins/TransformationsInterface.int.php
+END
+ExportPlugin.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/libraries/plugins/ExportPlugin.class.php
+END

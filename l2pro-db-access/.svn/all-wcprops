@@ -1,0 +1,587 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS
+END
+db_printview.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/db_printview.php
+END
+phpmyadmin.css.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/phpmyadmin.css.php
+END
+tbl_addfield.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/tbl_addfield.php
+END
+server_replication.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/server_replication.php
+END
+server_import.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/server_import.php
+END
+server_status_advisor.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/server_status_advisor.php
+END
+show_config_errors.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/show_config_errors.php
+END
+tbl_structure.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/tbl_structure.php
+END
+tbl_chart.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/tbl_chart.php
+END
+url.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/url.php
+END
+tbl_create.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/tbl_create.php
+END
+tbl_gis_visualization.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/tbl_gis_visualization.php
+END
+schema_edit.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/schema_edit.php
+END
+server_export.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/server_export.php
+END
+chk_rel.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/chk_rel.php
+END
+config.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/config.inc.php
+END
+webapp.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/webapp.php
+END
+pmd_save_pos.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/pmd_save_pos.php
+END
+db_import.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/db_import.php
+END
+tbl_select.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/tbl_select.php
+END
+tbl_operations.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/tbl_operations.php
+END
+pmd_relation_upd.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/pmd_relation_upd.php
+END
+db_export.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/db_export.php
+END
+tbl_change.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/tbl_change.php
+END
+prefs_manage.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/prefs_manage.php
+END
+phpunit.xml.nocoverage
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/phpunit.xml.nocoverage
+END
+changelog.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/changelog.php
+END
+RELEASE-DATE-4.0.10.9
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/RELEASE-DATE-4.0.10.9
+END
+server_variables.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/server_variables.php
+END
+navigation.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/navigation.php
+END
+server_binlog.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/server_binlog.php
+END
+robots.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/robots.txt
+END
+user_password.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/user_password.php
+END
+tbl_indexes.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/tbl_indexes.php
+END
+schema_export.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/schema_export.php
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/ChangeLog
+END
+server_status_variables.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/server_status_variables.php
+END
+db_sql.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/db_sql.php
+END
+tbl_row_action.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/tbl_row_action.php
+END
+server_plugins.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/server_plugins.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/index.php
+END
+db_tracking.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/db_tracking.php
+END
+pmd_display_field.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/pmd_display_field.php
+END
+composer.json
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/composer.json
+END
+db_qbe.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/db_qbe.php
+END
+db_routines.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/db_routines.php
+END
+import_status.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/import_status.php
+END
+server_status_monitor.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/server_status_monitor.php
+END
+db_datadict.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/db_datadict.php
+END
+server_sql.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/server_sql.php
+END
+prefs_forms.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/prefs_forms.php
+END
+tbl_printview.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/tbl_printview.php
+END
+db_triggers.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/db_triggers.php
+END
+print.css
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/print.css
+END
+config.sample.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/config.sample.inc.php
+END
+view_create.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/view_create.php
+END
+server_privileges.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/server_privileges.php
+END
+phpinfo.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/phpinfo.php
+END
+db_structure.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/db_structure.php
+END
+server_status_queries.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/server_status_queries.php
+END
+favicon.ico
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/favicon.ico
+END
+db_create.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/db_create.php
+END
+server_status.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/server_status.php
+END
+pmd_pdf.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/pmd_pdf.php
+END
+tbl_import.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/tbl_import.php
+END
+tbl_replace.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/tbl_replace.php
+END
+pmd_general.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/pmd_general.php
+END
+view_operations.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/view_operations.php
+END
+tbl_relation.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/tbl_relation.php
+END
+tbl_export.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/tbl_export.php
+END
+tbl_zoom_select.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/tbl_zoom_select.php
+END
+db_operations.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/db_operations.php
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/LICENSE
+END
+transformation_overview.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/transformation_overview.php
+END
+server_collations.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/server_collations.php
+END
+querywindow.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/querywindow.php
+END
+sql.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/sql.php
+END
+tbl_sql.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/tbl_sql.php
+END
+tbl_move_copy.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/tbl_move_copy.php
+END
+tbl_tracking.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/tbl_tracking.php
+END
+transformation_wrapper.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/transformation_wrapper.php
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/README
+END
+db_events.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/db_events.php
+END
+db_search.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/db_search.php
+END
+import.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/import.php
+END
+server_databases.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/server_databases.php
+END
+file_echo.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/file_echo.php
+END
+server_engines.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/server_engines.php
+END
+export.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/export.php
+END
+gis_data_editor.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/gis_data_editor.php
+END
+license.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/license.php
+END
+version_check.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/version_check.php
+END
+tbl_get_field.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/tbl_get_field.php
+END
+browse_foreigners.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/browse_foreigners.php
+END
+themes.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/themes.php
+END
+pmd_relation_new.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/pmd_relation_new.php
+END
+tbl_triggers.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/tbl_triggers.php
+END

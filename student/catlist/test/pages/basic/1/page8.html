@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta http-equiv="x-ua-compatible" content="IE=edge" >
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	 <!-- bootstrap/4.3.1-->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/common.css"/>
+	<!-- jquery/3.4.0 -->
+	<script src="js/jquery.min.js"></script>
+	<!-- bootstrap/4.3.1-->
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/popper.min.js"></script>
+
+	</head>
+	<body>	 
+  <!-- ============= Start Ttile Div============= -->
+	   <div class="title">
+	   <div class="titleLine skew">
+	   &nbsp;<span>Assessment</span>
+	  </div><div class="titleLine1 skew">&nbsp;</div><div class="titleLine2 skew">&nbsp;</div><div class="titleLine3 skew">&nbsp;</div>
+	  </div>
+    <!-- =============End Ttile Div============= -->
+<!-- =============Start Content Div============= -->
+	<div class="container">
+	  <div class="row"> 
+	<div class="col-sm-12 contentBg" id="contentBg">
+	<div id="launchAss">
+	 <p>You will now be presented a series of assessments. 
+   <p>Please answer each question.</p>
+   <p>At the end, you will be able to see the overall score depicting your performance.</p>
+  <p>All the best!</p>
+   <div class="btnBg text-center">
+				  <button id="btnLaunch" type="button" class="btn">Start</button>
+                     
+                </div>
+	</div>
+	 <!-- start  speed Reading MCQ-->
+           
+   <div  id="assessmentDiv" class="displayNone">
+       <div class="quizContentDetail">
+	   <div><span class="blue underLine cursorPointer" id="showCase">Case Study:</span></div>
+        <div id="ques-block-1" class="ques-block" qid="" qtype="">  
+		<!--Assessment Type-->
+       <div  class="quesQuizType" id="assQues">
+
+                        <div class="quesBg">
+
+                            <div class="quesContentDiv"> 
+                                <span class="col-md-12 quesTxt"></span>
+                            </div>
+							  <div class="instruction blue" id="instruction">Select the correct option.</div>
+                            <div class="ansBg">
+                                    
+                                    <!-- Start ///MCQ ans-->
+                                        <div class="mcqAnsDiv" style="display:block">
+           
+                                            <div class="mcqAns" id="mcqAns1">
+
+                                                <div class="checkBox radio radio-danger">
+                                                    <input type="radio" name="RadioGroup1"  value="option1"  class="ans-label unchecked" id="1">
+                                                    <label for="1" class="ans-label unchecked"  id="l1">
+                                                      
+                                                    </label>
+                                                </div>
+                                                
+                                            </div>
+											<div class="mcqAns" id="mcqAns2">
+
+                                                <div class="checkBox radio radio-danger">
+                                                    <input type="radio" name="RadioGroup1"  value="option2"  class="ans-label unchecked" id="2">
+                                                    <label for="2" class="ans-label unchecked"  id="l2">                                                     
+                                                    </label>
+                                                </div>                                               
+                                            </div>
+										<div class="mcqAns" id="mcqAns3">
+
+                                                <div class="checkBox radio radio-danger">
+                                                    <input type="radio" name="RadioGroup1"  value="option3"  class="ans-label unchecked" id="3">
+                                                    <label for="3" class="ans-label unchecked"  id="l3">
+                                                       
+                                                    </label>
+                                                </div>
+                                                
+                                            </div>
+										<div class="mcqAns" id="mcqAns4">
+
+                                                <div class="checkBox radio radio-danger">
+                                                    <input type="radio" name="RadioGroup1"  value="option4"  class="ans-label unchecked" id="4">
+                                                    <label for="4" class="ans-label unchecked"  id="l4">
+                                                      
+                                                    </label>
+                                                </div>                                                
+                                            </div>                                
+                                    </div>                               
+                                <!-- end Start ///MCQ ans-->
+                                        </div>
+                                    </div>
+                            </div>
+     <div class="btnBg text-right">
+				  <button id="btnSubmit" type="button" class="btn displayNone" current_ques_no="" page="1">Submit</button>
+                     <!--<button id="btnSubmit" type="button" class="bdrNone bgNone"><img class="btnImg" src="media/images/submit.png"></button>-->
+                     <button id="btnNext" type="button" class="btn" current_ques_no="" page="1">Next</button>
+                </div>
+ </div>	         
+ <!--end  Assessment -->
+	</div>
+   </div>     
+ 	 <!-- =============Start show popup Div============= -->
+<div class="col-sm-12 popupMarginTop popupBg hide caseStudy bdrBlue" id="caseStudy">
+	<div class="bold text-right"><a id="btnCaseClose" href="javascript:void(0)" class="black">Close</a></div>
+		<div class="marginTop20"></div>
+	   <p class="casePara" id="casePara"></p>
+	   <div class="text-center"> 
+	  </div>
+	  	<div class="marginTop20"></div>
+	</div>
+ <!-- =============End show popup Div============= -->
+	 <!-- =============Start Complete score============= -->	
+	<div class="col-sm-12 popupMarginTop popupBg hide complete bdrBlue" id="complete">
+	     <div class="bold text-right"><a id="btnClose" href="javascript:void(0)" class="black">Close</a></div>
+	<div class="marginTop20"></div>
+		 <div class="quizBg">
+		 <div class="text-center"><h4>Congratulations!</h4></div>
+                <div class="text-center quizSummery"> Your Score</div>
+                <div class="scoreBg">
+                    <div class="text-center quizScore width100per">
+                        <div>  <span id="starcountId" score="0" total="0" class="rightScoreID"></span></div>
+                        <div class="scoreTxt">&nbsp;</div>
+                    </div>                 
+                </div>				
+             </div>         
+				<div class="marginTop20"></div>
+        </div><!-- =============End Score============= -->
+   </div>
+ </div>
+</div>
+<script src="js/common.js"></script>	 
+ </body>
+</html>
+<script>
+ $(document).ready(function () {
+function shuffle(array) {
+  var currentIndex = array.length, temporaryValue, randomIndex;
+
+  // While there remain elements to shuffle...
+  while (0 !== currentIndex) {
+
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
+
+    // And swap it with the current element.
+    temporaryValue = array[currentIndex];
+    array[currentIndex] = array[randomIndex];
+    array[randomIndex] = temporaryValue;
+  }
+
+  return array;
+}
+  $("#assessmentDiv").hide();
+  $("#btnSubmit").hide();
+	  var data;
+	  var showId=1;// set deafult qustion set
+      var dataAPI = "data/assessment.json?" + new Date().getTime();
+
+	  $.ajaxSetup({cache:false});
+	  $.getJSON( dataAPI, {
+		tags: "Assessment",
+		tagmode: "any",
+		format: "json"
+	  }).done(function( data ) {
+		    var dataItems = data;
+			 $.each(dataItems, function(idx, obj) {
+			 var cnt=showId-1;
+			 var cId=obj.speed[cnt].id;
+			 var ins=obj.speed[cnt].instruction;
+			 var caseStudy=obj.speed[cnt].caseStudy;
+
+			// var wordSet=obj.speed[cnt].wordShow;
+			 //var spara=obj.speed[cnt].speedPara;
+             var mcq=obj.speed[cnt].mcqQuestion;
+			 // console.log(mcq)
+			 var arr=shuffle(mcq);
+
+			// console.log(arr);
+             var qId='', ques='',cAns='',ansoption='',ansText='',ans,checkans,ques_no,next_ques,total_ques,total_correct_ans_till_now = 0, total_ques_attempted = 1,msgText;
+
+			// alert(showId+'=='+cId+'=='+wordSet)
+		  if(showId==cId){
+			   total_ques= mcq.length;
+			   if (total_ques > 0) {
+					//$("#quesAttemp").text('1');
+					$("#totalQues").text(total_ques);
+					$("#starcountId").attr("total",total_ques);					
+				}				
+				  $("#btnNext").prop('disabled', true);
+				   $("#instruction").html(ins);
+				   $("#casePara").html(caseStudy);
+				  var i= 0;
+					
+				$("#assQues").html('');
+				var txt='';
+				 for(i=0;i<total_ques;i++){
+				
+				    qId= mcq[i].quesId;
+					ques= mcq[i].ques;
+					cAns=mcq[i].correctAns;
+					ansoption=mcq[i].answer;
+				var anstxt='';
+				for(var j=0;j<ansoption.length;j++){
+						//alert(ansoption.length);
+						var count=j+parseInt(1);
+						ansText =ansoption[j].option;
+						//$("#l"+count).html(ansText);
+						anstxt+='<div class="mcqAns" ><div class="checkBox radio radio-danger" id='+qId+count+' qId="'+qId+'" for="'+count+'"><input type="radio" name="RadioGroup'+qId+'" id="inlab'+qId+count+'" value="option'+count+'"  for="'+count+'" class="ans-label"  qid="'+qId+'"><label for="'+count+'" class="ans-label" qid="'+qId+'" id="lab'+qId+count+'">'+ansText+'</label></div></div>';
+
+					}
+					txt+='<div class="quesBg" id="assBg'+(i+1)+'" qId="'+qId+'"><div class="quesContentDiv"><span class="col-md-12 quesTxt">'+ques+'<span></div><div class="instruction blue" id="instruction">'+ins+'</div><div class="ansBg"><div class="mcqAnsDiv" id="mcqAnsDiv'+qId+'" style="display:block">'+anstxt+'</div></div></div>';  
+					 
+				 } /*  ###### Start  enable disable in mcq #############  */
+				 //console.log(txt);
+					$("#assQues").html(txt);
+					$(".quesBg").hide();
+					$("#assBg1").show();
+                 $('.mcqAnsDiv .radio').on('click', function () {
+					//   $('.unchecked').not(this).removeClass('checked');
+					//   $(this).toggleClass('checked','unchecked');
+						 var id_clicked = $(this).attr('id');						
+						//alert(id_clicked)
+						  $("#btnSubmit").prop('disabled', false);						
+							if (id_clicked) {
+								//alert("#in"+id_clicked)
+								$("#in"+id_clicked).addClass('checked');
+								$("#inlab"+id_clicked).addClass('checked');
+								$("#inlab"+id_clicked).attr('checked',true);
+								$("#btnNext").prop('disabled', false);							
+							} else {								
+								$("#in"+id_clicked).removeClass('checked');
+								$("#inlab"+id_clicked).removeClass('checked');
+								$("#inlab"+id_clicked).attr('checked',false);
+								$("#btnNext").prop('disabled', true);								
+							}
+						 var qid = $(this).attr('qid');
+						 var ans= $(this).attr('for');
+                            qid=qid-1;
+							cAns=mcq[qid].correctAns;
+							 //console.log(cAns+"=="+ans);
+						 	if (cAns == ans) {
+							//console.log(cAns+"=="+ans)
+								total_correct_ans_till_now++;
+								 $("#starcountId").html(total_correct_ans_till_now + '/' + total_ques);
+								 $("#starcountId").attr('score', total_correct_ans_till_now);
+								 $("#starcountId").attr('total', total_ques);
+								//console.log(total_correct_ans_till_now)
+							} else {
+							//console.log(cAns+"=="+ans)
+								 $("#starcountId").html(total_correct_ans_till_now + '/' + total_ques);
+								 $("#starcountId").attr('score', total_correct_ans_till_now);
+								 $("#starcountId").attr('total', total_ques);
+							}						
+				 });
+					
+				   $("#btnNext").prop('disabled', true);				
+				$("#btnSubmit").click(function(){
+				    $("#complete").show();
+					$("#caseStudy").hide();
+					$("#showCase").hide();
+					$(".ques-block").hide();
+					var total_ans= $("#starcountId").attr('score');
+					 $("#starcountId").html(total_ans + '/' + total_ques);
+				}); 
+				$("#btnClose").click(function(){   					 
+					$("#btnSubmit").show();
+					$("#caseStudy").hide();
+					$("#showCase").show();					
+					$("#btnSubmit").prop('disabled', true);
+					$(".mcqAnsDiv").addClass("cursorNone");
+					$("#ques-block-1").show();
+					$("#complete").hide();
+	          });
+                //$("#btnBack").prop('disabled', true);
+                $("#btnSubmit").hide();
+			  $("#btnNext").click(function(){   
+					//$("#btnBack").prop('disabled', false);
+					//$("#btnSubmit").prop('disabled', true);
+					$("#btnNext").prop('disabled', true);
+					var nextId = $(this).attr('page');
+					var next_ques = parseInt(nextId)+ 1;
+					var pre_ques = parseInt(nextId)-1;
+					//console.log(next_ques);
+				    $(".quesBg").hide();
+					$("#assBg"+next_ques).show();
+				    if(next_ques==total_ques){
+						 //$("#btnNext").prop('disabled', true);
+						 $("#btnNext").hide();
+						 $("#btnSubmit").show();
+						 $("#btnSubmit").prop('disabled', true);
+						 $("#starcountId").html('0 /' + total_ques);
+					}				
+					$(this).attr('page',next_ques);
+					//$("#btnBack").attr('page',next_ques);
+					$("#btnSubmit").attr('page',next_ques);
+					//total_ques_attempted++;
+	          }); 
+			
+			/* $("#btnBack").click(function(){   
+			       $("#btnNext").show();
+					$("#btnNext").prop('disabled', false);
+					 //$("#btnSubmit").prop('disabled', true);
+					  $("#btnSubmit").hide();
+					var preId = $(this).attr('page');
+					var next_ques = parseInt(preId)+ 1;
+					var pre_ques = parseInt(preId)-1;
+					
+					//alert(pre_ques);
+				    $(".quesBg").hide();
+					$("#assBg"+pre_ques).show();
+					$("#assBg"+pre_ques).find('.mcqAnsDiv .ans-label').each(function () {
+						if ($(this).hasClass('checked')) {
+							//$("#btnSubmit").prop('disabled', false);
+							
+						}
+						
+					});
+				   if(pre_ques ==1){
+					
+					
+					$(this).attr('page',pre_ques);
+					$("#btnNext").attr('page',pre_ques);
+					$("#btnSubmit").attr('page',pre_ques);
+					   total_ques_attempted--;
+				       progressBar();
+
+	          }); 	$("#btnBack").prop('disabled', true);
+					}*/
+           
+
+		   }//showId item if condition
+		   
+		});//dataitem each loop end  fn
+
+	  
+   });//Json Done end  fn
+ 
+   $("#btnLaunch").click(function(){   
+	  $("#launchAss").hide();
+	  $("#assessmentDiv").show();
+	});
+	
+  $("#btnCaseClose").click(function(){   	 
+	 $("#launchAss").hide();
+	$("#assessmentDiv").show();
+	$("#caseStudy").hide();
+  });
+  
+  $("#showCase").click(function(){ 
+	 $("#launchAss").hide();  
+	 $("#assessmentDiv").hide();		 
+	 $("#caseStudy").show();
+	});
+	
+});
+
+ </script>
+

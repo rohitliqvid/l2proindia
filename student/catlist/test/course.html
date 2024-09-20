@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta http-equiv="x-ua-compatible" content="IE=edge" >
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.3, maximum-scale=1.8,user-scalable=yes"/>
+	<title>Course</title>
+	<link rel="shortcut icon" href="../favicon.ico">
+	 <!-- bootstrap/4.3.1-->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/common.css"/>
+	<!-- jquery/3.4.0 -->
+	<script src="js/jquery.min.js"></script>
+	<!-- bootstrap/4.3.1-->
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	</head>
+	<body>
+	<!-- ============= Start Intro Div============= -->
+	
+	<div class="header" id="header">
+	
+	   <div class="header-right">
+	   <ul class="nav">
+	   <li><a class="active" href="index.html" data-toggle="tooltip" data-placement="bottom" title="Home"><img src="media/images/home.jpg"/></a></li>
+		<li><a href="#" onclick="menuBar();" id="menuBar" data-toggle="tooltip" data-placement="bottom" title="Menu"><img src="media/images/bar.jpg"/> 
+	    <ul id="gn-menu" class="gn-menu collapse"></a></li>
+		</ul>		
+		
+		 <li><a id="exit" href="index.html"  data-toggle="tooltip" data-placement="bottom" title="Exit"><img src="media/images/exit.jpg"/></a></li>
+		<!-- <li class="hide"><a id="counter" class="hide">&nbsp;</a></li>-->
+	   </div>
+	 </div>
+ 
+    
+  <!-- ============= Start Slider Div============= -->
+     <div class="container-fluid sliderMainDiv" id="sliderMainDiv">
+	  <div class="row">
+             <!-- <div class="col-sm-12">
+			  <h3 id="cn"></h3>
+			  </div>-->
+			 <div class="col-sm-12 containMainDiv">
+			  <div class="containDiv" id="containDiv">
+		     <a class="backNext back" id="back"><img id="backImg" src="media/images/back.png"/></a>
+			 
+                <div class="iframe" id="touchsurface">&nbsp;</div>
+               <a class="backNext next" id="next"><img id="nextImg" src="media/images/next.png"/></a>
+         </div> 
+		 </div>
+	   </div> 
+	 </div> 
+	<!-- ============= End Slider Div============= -->
+   <div class="footer" id="footer">
+&nbsp;
+ </div>
+	<script src="js/navigation.js"></script>
+   <script src="js/scorm_api.js"></script>
+   <script src="js/common.js"></script> 
+   <script>
+  /*function swipedetect(el, callback){
+  
+    var touchsurface = el,
+    swipedir,
+    startX,
+    startY,
+    distX,
+    distY,
+    threshold = 150, //required min distance traveled to be considered swipe
+    restraint = 100, // maximum distance allowed at the same time in perpendicular direction
+    allowedTime = 300, // maximum time allowed to travel that distance
+    elapsedTime,
+    startTime,
+    handleswipe = callback || function(swipedir){}
+  
+    touchsurface.addEventListener('touchstart', function(e){
+        var touchobj = e.changedTouches[0]
+        swipedir = 'none'
+        dist = 0
+        startX = touchobj.pageX
+        startY = touchobj.pageY
+        startTime = new Date().getTime() // record time when finger first makes contact with surface
+        e.preventDefault()
+    }, false)
+  
+    touchsurface.addEventListener('touchmove', function(e){
+        e.preventDefault() // prevent scrolling when inside DIV
+    }, false)
+  
+    touchsurface.addEventListener('touchend', function(e){
+        var touchobj = e.changedTouches[0]
+        distX = touchobj.pageX - startX // get horizontal dist traveled by finger while in contact with surface
+        distY = touchobj.pageY - startY // get vertical dist traveled by finger while in contact with surface
+        elapsedTime = new Date().getTime() - startTime // get time elapsed
+        if (elapsedTime <= allowedTime){ // first condition for awipe met
+            if (Math.abs(distX) >= threshold && Math.abs(distY) <= restraint){ // 2nd condition for horizontal swipe met
+                swipedir = (distX < 0)? 'left' : 'right' // if dist traveled is negative, it indicates left swipe
+            }
+            else if (Math.abs(distY) >= threshold && Math.abs(distX) <= restraint){ // 2nd condition for vertical swipe met
+                swipedir = (distY < 0)? 'up' : 'down' // if dist traveled is negative, it indicates up swipe
+            }
+        }
+        handleswipe(swipedir)
+        e.preventDefault()
+    }, false)
+}
+  
+//USAGE:
+
+var el = document.getElementById('touchsurface')
+swipedetect(el, function(swipedir){
+   // swipedir contains either "none", "left", "right", "top", or "down"
+    if (swipedir =='left'){
+       // alert('You just swiped left!')
+      $nCurrPage++;
+      loadPage();
+	  winResize();
+  }else if (swipedir =='right'){
+        //alert('You just swiped right!')
+     $nCurrPage--;
+      loadPage();
+	  winResize();
+  }else{}
+})
+		
+*/
+</script>
+ </body>
+</html>

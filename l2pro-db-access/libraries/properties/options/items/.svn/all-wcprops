@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/libraries/properties/options/items
+END
+TextPropertyItem.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/libraries/properties/options/items/TextPropertyItem.class.php
+END
+DocPropertyItem.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/libraries/properties/options/items/DocPropertyItem.class.php
+END
+MessageOnlyPropertyItem.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/libraries/properties/options/items/MessageOnlyPropertyItem.class.php
+END
+BoolPropertyItem.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/libraries/properties/options/items/BoolPropertyItem.class.php
+END
+HiddenPropertyItem.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/libraries/properties/options/items/HiddenPropertyItem.class.php
+END
+RadioPropertyItem.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/libraries/properties/options/items/RadioPropertyItem.class.php
+END
+SelectPropertyItem.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/libraries/properties/options/items/SelectPropertyItem.class.php
+END

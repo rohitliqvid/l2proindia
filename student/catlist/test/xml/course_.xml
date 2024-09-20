@@ -1,0 +1,19 @@
+<?xml version='1.0'?>
+<course courseName='Soft-Skills'  courseDescription='Soft-Skill Course' audio='' leftPanel ='1'>
+	<topic id='1' name='Introduction' isAssessment='no'>
+	<page id='1' pagename='page1.html'></page>
+	<page id='2' pagename='page2.html'></page>
+	<page id='3' pagename='page3.html'></page>
+	<page id='4' pagename='page4.html'></page>
+	<page id='5' pagename='page5.html'></page>
+	<page id='6' pagename='page6.html'></page>
+	<page id='7' pagename='page7.html'></page>
+	<page id='8' pagename='page8.html'></page>
+	</topic>
+	<topic id='2' name='Topic 2' isAssessment='no'>
+	
+	</topic>
+	<topic id='3' name='Assessment' isAssessment='yes'>
+    
+	</topic>
+</course>

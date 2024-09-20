@@ -1,0 +1,551 @@
+@import url('circle.css');
+/* CSS Document */
+/* centered columns styles */
+
+body{ /* font-size: 14px; */    font-size: 1em;color:#111;
+	font-family: Arial!important; 
+	
+}
+body,html{
+  overflow: hidden !important; 
+}
+a:focus { 
+ outline: none; 
+}
+h1, h2, h3,h4,h5, h6{color: rgb(17, 17, 17);}
+.padd0{padding:0px}
+.padd10{padding:10px}
+.paddTop10{padding-top:10px}
+.paddBottom10{padding-bottom:10px}
+.paddLeft10{padding-left:10px}
+.paddRight10{padding-right:10px}
+.margin0{margin:0px}
+.margin10{margin:10px}
+.marginTop10{margin-top:10px}
+.marginBottom10{margin-bottom:10px}
+
+.displayNone,.hide{display:none}
+.displayBlock,.show{display:none}
+.displayFlex{display: flex;}
+.bold{font-weight:bold}
+.blue,a.blue{color:#2f53e5}
+.black,a.black{color:#111}
+.underLine, a.underLine,a{    text-decoration:underline!important}
+ul li.blue{}
+.bdrNone{border:none!important}
+.bdrLeftNone{border-left:none!important}
+.bdrRightNone{border-right:none!important}
+.bdrTopNone{border-top:none!important}
+.bdrBottomNone{border-bottom:none!important}
+.bdrBlue{border:1px solid #2f53e5!important}
+.bgNone{ background:transparent!important}
+
+.cursorNone{pointer-events: none;}
+.cursorDefault{pointer-events: auto;}
+.cursorPointer,.pointer{cursor:pointer}
+   /* Style the header with a grey background and some padding */
+.header {    
+height:60px;line-height:35px;
+  overflow: hidden;
+  background-color: #fff;
+  padding: 0px 5px 2px 5px;border-bottom: solid thin #efe8e8;margin-bottom:0px;
+}
+
+/* Style the header links */
+
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+
+.header a.logo img{
+max-width: 100%;
+height: 60px;}
+
+
+/* Float the link section to the right */
+.header-right {
+  float: right;line-height:35px;
+}
+.header-right{}
+.header-right .nav{padding: 0px 0px;}
+.header-right .nav li{    
+padding: 15px 0px;
+    height: 60px;line-height: 30px;  width: 30px;
+    text-align: center;
+    margin: 0px 5px;
+display: inline-block;
+  }
+.header-right a{color:#111;}
+.header-right img,.header-right .nav li img{width:30px;height:20px;margin:0px 5px;vertical-align:middle}
+
+.header-right .nav li ul.gn-menu{display:none;position:absolute;right:10px;    position: absolute;
+    right: 10px;top:40px;
+    z-index: 2;
+    background: #2f53e5;
+    color: #fff;
+    width: 180px;max-height:400px;overflow-y:auto ;   margin: 0px;
+    padding: 0px;z-index:3;} 
+.header-right .nav li ul.gn-menu li{ width: 100%;  height: 60px;line-height: 30px; 
+    text-align: left;
+    margin: 0px 5px;padding:5px 2px;margin:2px;list-style:none;border-bottom:solid thin #5371ea} 
+ .header-right .nav li ul.gn-menu li:last-child{border:none!important}
+
+
+  /* Start into css */ 
+.introDiv{width: 100%;position:relative;height:auto}
+.introBgImg{
+   background-image: url('../media/images/intro.png');
+  /*
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%; */  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 610px;width: 100%;position: relative;z-index:1;
+  }
+
+/* .introImg{
+  max-width:100%;
+  width:100%;
+  height:auto;
+  } */
+ .introContent{ 
+  width: 100%;
+    position: absolute;
+    bottom: 0px;
+    right: 0%;
+    padding-bottom: 5%;z-index:2;}
+  .introContent .introPara{   
+   padding: 20px 10px;
+    background: #ffffffe6;
+  /*   font-size: 48px; */font-size: 2.5em;
+    text-align: center;
+    font-weight: bold;
+    color: #111;
+    margin-bottom: 3%;}
+  .introContent .launchText{text-align: right;}
+   .introContent .launchText a{cursor:pointer}
+  .introContent .launchText img{ width: 130px;}
+  /* end into css */ 
+  /* Start slider css */
+ .sliderMainDiv{}
+ .containMainDiv{padding:0px 15px}
+ .containDiv{position:relative;}
+ 
+ .containDiv .back,.containDiv .next{position:absolute;    top: 200px;z-index:4;}
+ .containDiv .back{left:0px}
+ .containDiv .next{right:0px}
+ .containDiv .back img,.containDiv .next img{width: 30px;    cursor: pointer;}
+ .containDiv .iframe {}
+ /* End slider css */
+ 
+ 
+ /* Start Page  css */
+  
+ .title{   min-height:40px; 
+  background: #fff;
+  width: 100%;
+  position: relative;
+  color:#fff;
+  font-family:Calibri Light;
+  /*  font-size:22px;  */  
+  font-size:1.2em; 
+  margin-top:20px; 
+  padding: 0px 10px;
+   line-height: 20px;text-align:left;  
+	 background: rgba(47,83,229,1);
+	background: -moz-linear-gradient(left, rgba(47,83,229,1) 20%, rgba(255,255,255,1) 67%, rgba(255,255,255,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(20%, rgba(47,83,229,1)), color-stop(67%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1)));
+	background: -webkit-linear-gradient(left, rgba(47,83,229,1) 20%, rgba(255,255,255,1) 67%, rgba(255,255,255,1) 100%);
+	background: -o-linear-gradient(left, rgba(47,83,229,1) 20%, rgba(255,255,255,1) 67%, rgba(255,255,255,1) 100%);
+	background: -ms-linear-gradient(left, rgba(47,83,229,1) 20%, rgba(255,255,255,1) 67%, rgba(255,255,255,1) 100%);
+	background: linear-gradient(to right, rgba(47,83,229,1) 20%, rgba(255,255,255,1) 67%, rgba(255,255,255,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2f53e5', endColorstr='#ffffff', GradientType=1 ); 
+  } 
+ .skew{ display:inline-block;
+   min-height:40px;
+	 padding: 10px 1px;
+    line-height: 20px;
+    text-align: left;
+    margin-right: 5px;
+	 -moz-transform: skew(-25deg, 0deg);
+	-webkit-transform: skew(-25deg, 0deg);
+	-o-transform: skew(-25deg, 0deg);
+	-ms-transform: skew(-25deg, 0deg);
+	transform: skew(-25deg, 0deg);
+	} 
+  
+
+.skew span{ position:absolute;    top: 8px;
+    display: block;
+	padding: 0px 10px;
+	-moz-transform: skew(25deg, 0deg);
+	-webkit-transform: skew(25deg, 0deg);
+	-o-transform: skew(25deg, 0deg);
+	-ms-transform: skew(25deg, 0deg);
+	transform: skew(25deg, 0deg);
+  }
+  .titleLine{ background: #2f53e5;width:90%}  
+  .titleLine1{background: #5775ef;width:5px}
+   .titleLine2{background:#849bfb;width:5px}
+   .titleLine3{background: #9faffd;width:5px}
+
+  .contentBg{padding:30px 0px 20px 0px; margin: 0px 0px;}
+ .contentDiv,.contentImgDiv{overflow-y:auto;padding:10px;border:1px solid #2f53e5;border-top:10px solid #2f53e5;}
+
+  .popupBg{overflow-y:auto;border:1px solid #2f53e5;border-left:10px solid #2f53e5;}	
+	
+  .contentDiv{min-height:360px;height:auto;}
+ .contentWithOutBdr{overflow-y:auto;padding:10px;min-height:80px;height:auto;    border:none;border-top:none;}
+ .popupBg{ width: 80%; padding:10px; margin: 20px auto;min-height:180px;height:   auto;}
+ .contentImgDiv{ min-height:60px;height:auto}	
+ .popupImgBg{  width: 80%; padding:0px;  text-align:center;margin: 10px auto;   min-height:160px;height:auto;}
+ .popupImgBg img,.popupImgBg .imgBottom{ border:1px solid #2f53e5;text-align:center;border-left:10px solid #2f53e5;max-width:100%;}
+
+ .popupImgRightBg{ text-align:center; margin: 0px auto;min-height:160px;height:auto;}
+ .popupImgRightBg img,.popupImgRightBg .imgRight,.imgRight{ text-align:center;    width:85%; max-width:100%;height:auto;}
+ .popupVideoBg{ width: 100%; padding:0px;  text-align:center;margin: 10px auto;   min-height:160px;height:auto;}
+  .popupVideoBg video { max-width: 100%;height: auto;}
+
+
+ /*Start  MCQ Quiz  css */
+
+.quizContentDetail{height:100%; padding: 10px 5px 10px 5px;}
+.quizContentDetail .ques-block{height:360px;position:relative}
+.quizContentDetail .topProgressBg{overflow: hidden;}
+.quizContentDetail .topProgressBg .topProgressLeft {
+   width: 90%;
+   float : left;
+   padding: 5px 0px 0px 0px;
+}
+.quizContentDetail .topProgressBg .topProgressRight {
+    width: 10%;
+    float: right;
+    font-size: 100%;
+    text-align: left;
+	top: -3px;
+	position: relative;
+	left: 10px;color:#5BC0DE;
+}
+.quizContentDetail .topProgressBg .fillLine{ color : #C8C7C4;
+    background-color:#C8C7C4;}
+.quizContentDetail .topProgressBg .emptyLine{ color : #C8C7C4;
+    padding: 2px 0px;
+    background-color: #C8C7C4;
+    border-radius: 10px;}
+.quizContentDetail .topProgressBg .progressField{ 
+    display: none;
+    padding: 2px 0px;
+  /*  background-color: #f26522; */
+  background-color: #f15a22; 
+    border-radius: 10px;
+    position: relative;
+    top: -4px;}
+.quizContentDetail .instruction{color:#2f53e5;font-size: 1.0em;padding-right:20px ;font-style: italic;    padding-left: 5px;}
+
+.quizContentDetail .quesBg{padding: 15px 10px 5px 0px;width:100%;height:auto;overflow:hidden;font-size: 1.1em; color: #111;}
+
+.quizContentDetail .quesBg .quesNo {
+    padding: 0px;   
+   
+}
+.quizContentDetail .quesBg .quesTxt{padding:0px 0px 0px 0px;  
+
+	height: 100px;
+overflow-y: auto;overflow-x: hidden;}
+.quizContentDetail .quesBg .quesAvTxt{padding:0px 0px 0px 10px;   
+    color: #111;
+	height: 40px;
+overflow-y: auto;overflow-x: hidden;}
+.quizContentDetail .quesBg .quesContentDiv{width:100%;overflow-x:hidden;}
+.quizContentDetail .quesQuizType {padding-top:10px;}
+.quizContentDetail .quesQuizType .quesContentDiv130{
+	width:100%;height: 130px;
+overflow-y: auto;padding-top:5px;}
+.quizContentDetail .ansBg{padding: 10px 10px 10px 10px;height:220px;overflow: hidden;}
+
+.quizContentDetail .ansBg .mcqAnsDiv{width:100%; font-size: 1.0em;}
+
+.quizContentDetail .ansBg .mcqAnsDiv .mcqAns{padding:2px 0px;height: 50px; line-height: 45px;}
+.quizContentDetail .ansBg .mcqAnsDiv .checkBox {display: inline-block;padding:0px 2px;height: 50px; line-height: 45px;}
+/*.quizContentDetail .ansBg .mcqAnsDiv .checkBox .chk{display: none;}*/
+.quizContentDetail .ansBg .mcqAnsDiv .checkBox label {
+  /*  padding: 6px 20px 6px 10px; */padding: 0px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-top: 0px;border: 2px solid #fff;
+    position: relative;top: -4px;font-size: 17px;color:#111;
+}
+.quizContentDetail .ansBg .mcqAnsDiv .ans-label {
+  /*  width: 20px;
+    height: 20px;*/
+}
+.quizContentDetail .ansBg .mcqAnsDiv .checkBox label:hover{
+cursor:pointer;
+}
+.quizContentDetail .ansBg .mcqAnsDiv .checkBox label.checked {
+}
+.quizContentDetail .ansBg .mcqAnsDiv .checkBox label.unchecked:after{
+	content: '';
+	font-size: 34px;
+position: absolute;
+top: -7px;
+left: 20px;
+	color: #f15a22;
+}
+.quizContentDetail .ansBg .mcqAnsDiv .checkBox label.checked:after {
+top: 14px;
+    left: 21px;
+    color: #f15a22;
+}
+/*.quizContentDetail .ansBg .mcqAnsDiv .checkBox label:last-child.checked:after {
+
+top: -8px;
+
+}*/
+.quizContentDetail .ansBg .mcqAnsDiv .ansContent{display: inline;padding:0px 2px;    font-size: 15px;}
+
+.quizContentDetail .btnBg .btn,.quizContentDetail .btnBg .btnImg{width:120px;cursor: pointer;}
+
+.quizContentDetail input[type=checkbox], .quizContentDetail input[type=radio] {
+    box-sizing: border-box;
+    padding: 10px;width:20px;height:20px;
+}
+
+ 
+.msgDivId {
+    float: left;
+    width: 100%;
+    text-align: center;
+    height: 50%;
+    position: relative;
+    vertical-align: bottom;
+    padding-top: 0%;
+    padding-top: 20px;
+}
+.msgDivId h1 {
+    color: #EB4F5E;
+    font-weight: bold;
+    font-size: 45px;
+}
+.msgDivId p {
+    color: #EB4F5E;
+    font-size: 18px;
+}
+.quizBg .resultTitle {
+    Padding: 20px;
+    height: 14%;
+    font-size: 25px;
+    font-weight: bold;
+    overflow: hidden;
+    color: #656464;
+}
+.quizBg .btnSubmit {
+    margin: 10px 5px;
+    padding: 6px 40px;
+    border-bottom-color: #EB4F5E;
+    border-bottom-width: 2px;
+    border-radius: 5px;
+    background-color: #242e3a;
+    border-bottom: solid 2px #EB4F5E;
+    font-size: 15px;
+    color: #fff !important;width: 40%;
+}
+
+ .quizBg .score{    height: 100px;
+width: 120px;
+margin: 0px auto;
+text-align: center;}
+.score .c100 {
+    position: relative;
+    font-size: 120px;
+   width: 1.0em;
+height: 1.0em;
+    border-radius: 50%;
+    float: left;
+    margin: 0 0.2em 0.2em 0;
+    background-color: #cccccc;
+}
+.score .c100 > span {
+ width: 2.4em !important;
+line-height: 2.5em !important;
+  color:#111;
+   font-size: 0em;
+   font-size:50px;!important;
+}
+.score .c100 > span .resultId {
+    color:#111;
+   font-size: 0em;
+   font-size:50px;!important;
+
+}
+.score .c100 > span .perId{
+line-height: 5.5em !important;
+font-size: 0em;
+font-size: 19px!important;color: #666;}
+.score .c100.orange .bar, .score .c100.orange .fill {
+    border-color: #EB4F5E !important;
+}
+
+ 
+.btn{background:#751257;color:#fff}
+ /* ======= End MCQ Quiz  css==========*/
+
+
+ /* End Page css */
+ 
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */ 
+
+@media (min-width: 768px){	
+ .container {max-width: 620px;}
+}
+
+@media (min-width: 992px) {
+   .container { max-width: 920px;}
+   .header{height: 60px;}
+   .header a.logo img {height: 60px;}	 
+}
+
+@media (min-width: 1200px){
+  .container { max-width: 1140px;}
+}
+
+@media (max-width: 992px)and (orientation :  landscape) {
+   .header{height: 40px;}
+   .header a.logo img {max-width: 100%;height: 50px;}
+   .header-right {float:right;}
+   .header-right .nav li{padding: 15px 0px;height: 40px;}
+   .header-right a{color:#111}
+   .introContent{ padding-bottom: 2%;}
+   .introContent .introPara{margin-bottom: 2%;}
+   .title{min-height: 30px;padding: 0px 10px;width: 90%;} 
+   .skew {min-height: 30px; padding: 5px 1px;line-height: 20px;}
+   .skew span{top: 8px;}
+   .containDiv .back,.containDiv .next{position:absolute;    top:150px;}
+   .contentBg{padding:10px 0px 10px 0px;margin: 0px 20px;}
+   .contentDiv{min-height: 180px; overflow-y:auto;}
+   .contentImgDiv{min-height: 60px; overflow-y:auto;}
+   .contentWithOutBdr {min-height: 60px}
+   .popupBg{ min-height:120px;overflow-y:auto;padding:10px;}
+   .popupImgBg{ margin: 10px auto;min-height:100px;}
+   .popupImgBg img{height:auto;}
+   .popupImgRightBg img,.popupImgRightBg .imgRight,.imgRight{ width:85%; }
+} 
+
+@media (max-width: 767px) and (orientation :  landscape){
+	body{  font-size: .9em;}
+	.introContent .introPara{font-size: 1.9em;}
+    .title{   margin-top: 10px;font-size: 1.2em;} 
+	.header { height: 30px;}
+	.header a.logo img {max-width: 100%;height: 40px;}
+	.header-right {float:right;}
+	.header-right .nav li{padding: 0px 0px;height: 30px;line-height: 30px;}
+	.header-right img, .header-right .nav li img {width: 26px;height: 18px; margin: 0px 5px;}
+	.header-right .nav li ul.gn-menu li{height: 30px;line-height: 15px; } 
+	
+	.title{min-height: 30px;padding: 0px 5px 0px 15px;width: 100%;} 
+	.titleLine {width: 85%;}
+	.skew{ min-height: 30px;padding: 5px 1px;line-height: 20px;}
+	.skew span{top: 5px;}
+    .containDiv .back,.containDiv .next{position:absolute;top:150px;}
+    .contentBg{padding:10px 0px 10px 0px; margin: 0px 0px;}
+    .contentDiv{min-height: 180px; }
+    .contentImgDiv{min-height: 60px;}
+    .contentWithOutBdr {min-height: 60px}
+    .popupBg{min-height:120px;max-height:253px;overflow-y:auto;padding:10px;}
+    .popupImgBg{ margin: 10px auto;min-height:100px;}
+    .popupImgBg img{height:auto;}	
+    .popupImgRightBg{ margin: 10px auto;}
+	.popupImgRightBg img,.popupImgRightBg .imgRight,.imgRight{width:85%;}
+	.popupVideoBg{ width: 100%; padding:0px;  text-align:center;margin: 10px auto;   min-height:160px;height:auto;}
+   .popupVideoBg video {    max-width: 100%;height: auto;}
+
+	.quizContentDetail { padding: 0px 5px 0px 5px;    font-size: 1em;}
+	.quizContentDetail .quesQuizType { padding-top: 0px;}
+	.quizContentDetail .quesBg {padding: 5px 10px 5px 0px;}
+	.quizContentDetail .ansBg{padding: 5px 10px 5px 0px;}
+	.quizContentDetail .ansBg .mcqAnsDiv .mcqAns {padding: 2px 0px; height: 30px; line-height: 35px;}
+	.quizContentDetail .ansBg .mcqAnsDiv .checkBox{ height: 30px; line-height: 35px;}
+	.quizContentDetail .ansBg .mcqAnsDiv .checkBox label {padding: 0px;
+    top: -4px;   font-size: 1em;}
+	.quizContentDetail .ansBg{    height: auto;
+     overflow: none; }
+	 .quizContentDetail .btnBg .btn, .quizContentDetail .btnBg .btnImg {width: 90px;}
+	 .quizContentDetail input[type=checkbox], .quizContentDetail input[type=radio] { padding: 5px; width: 18px; height: 18px;}
+
+} 
+
+
+@media (max-width: 569px) and (orientation :  landscape){
+  .container { max-width: 470px;}
+  .header { height: 30px;}
+  .header a.logo img {max-width: 100%; height: 40px;}
+  .header-right { float:right;}
+  .header-right .nav li{padding: 0px 0px;height: 30px;line-height: 30px;}
+  .header-right img, .header-right .nav li img {width: 26px;height: 18px; margin: 0px 5px;}
+  .header-right .nav li ul.gn-menu li{height: 30px;line-height: 15px; } 
+  
+  .title{min-height: 30px;padding: 0px 5px 0px 15px;width: 100%;}
+  .titleLine {width: 85%;}
+  .skew {min-height: 30px;padding: 5px 1px;line-height: 20px;}
+  .skew span{top: 5px;}
+  .containDiv .back,.containDiv .next{position:absolute;top:150px;}
+  .contentBg{padding:10px 0px 10px 0px; margin: 0px 0px;}
+  .contentDiv{min-height: 180px; }
+  .contentImgDiv{min-height: 60px; }
+  .contentWithOutBdr {min-height: 60px}
+  .popupBg{ min-height:120px; padding:10px; }
+  .popupImgBg{ margin: 10px auto;min-height:100px;}
+  .popupImgBg img{height:auto;}
+  .popupImgRightBg img,.popupImgRightBg .imgRight,.imgRight{width:85%; }
+   
+}
+
+
+@media (max-width: 767px) and (orientation :  portrait){
+	/* body,html{
+    overflow-y: auto !important; 
+  }	 */
+    body{  font-size: .9em;}
+	.container {width: 80%;}
+	.introContent .introPara{font-size: 1.9em;}
+	.header { height: 30px;}
+	.header a.logo img {max-width: 100%;height: 30px;}
+	.header-right {float:right;}
+	.header-right .nav li{padding: 0px 0px;height: 30px;line-height: 30px;}
+	.header-right img, .header-right .nav li img {width: 26px;height: 18px; margin: 0px 5px;}
+	.header-right .nav li ul.gn-menu li{height: 30px;line-height: 15px; } 
+	.containMainDiv{padding:0px 2px}
+	.title{  margin-top: 10px;font-size: 1.2em;
+	min-height: 30px;padding: 0px 5px 0px 15px;width: 100%;} 
+	.titleLine {width: 85%;}
+	.skew{ min-height: 30px;padding: 5px 1px;line-height: 20px;}
+	 .skew span{top: 5px;}
+	
+    .containDiv .back,.containDiv .next{position:absolute;top:150px;}
+    .contentBg{padding:10px 0px 10px 0px; margin: 0px 0px;}
+    .contentDiv{min-height: 180px; }
+    .contentImgDiv{min-height: 60px;}
+    .contentWithOutBdr {min-height: 60px}
+    .popupBg{min-height:120px;max-height:253px;overflow-y:auto;padding:10px;}
+    .popupImgBg{ margin: 10px auto;min-height:100px;}
+    .popupImgBg img{height:auto;}	
+    .popupImgRightBg{ margin: 10px auto;}
+	.popupImgRightBg img,.popupImgRightBg .imgRight,.imgRight{width:85%;}
+	.popupVideoBg{ width: 100%; padding:0px;  text-align:center;margin: 10px auto;   min-height:160px;height:auto;}
+    .popupVideoBg video {    max-width: 100%;height: auto;}
+	
+	.quizContentDetail { padding: 0px 5px 0px 5px;    font-size: 1em;}
+	.quizContentDetail .quesQuizType { padding-top: 0px;}
+	.quizContentDetail .quesBg {padding: 5px 10px 5px 0px;}
+	.quizContentDetail .ansBg{padding: 5px 10px 5px 0px;}
+	.quizContentDetail .ansBg .mcqAnsDiv .mcqAns {padding: 2px 0px; height: 30px; line-height: 35px;}
+	.quizContentDetail .ansBg .mcqAnsDiv .checkBox{ height: 30px; line-height: 35px;}
+	.quizContentDetail .ansBg .mcqAnsDiv .checkBox label {padding: 0px;
+    top: -4px;   font-size: 1em;}
+	.quizContentDetail .ansBg{    height: auto;
+     overflow: none; }
+	 .quizContentDetail .btnBg .btn, .quizContentDetail .btnBg .btnImg {width: 90px;}
+	 .quizContentDetail input[type=checkbox], .quizContentDetail input[type=radio] {padding: 5px;width: 18px;height: 18px;}
+
+} 

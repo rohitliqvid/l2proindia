@@ -1,0 +1,31 @@
+<?php
+$curdate=Date("d-m-Y");
+require('fpdf/fpdf.php');
+//$uname="Devendra Sahai Saxena";
+$uname=$_GET['uname'];
+$cname=$_GET['cname'];
+$cdate=$_GET['cdate'];
+//$pdf= new FPDF();
+//$pdf = new FPDF('P','mm',array(150,100));
+$pdf = new FPDF('P','mm',array(220,220));
+//$pdf = new FPDF('P','mm','legal');
+$pdf->SetAuthor('AUTHOR');
+$pdf->SetTitle('CERTIFICATE');
+$pdf->SetFont('Arial','',20);
+$pdf->SetTextColor(0,0,0);
+$pdf->AddPage('P'); 
+//$pdf->SetDisplayMode(real,'default');
+//$pdf->Image('logo.png',10,20,33,30,' ','http://www.fpdf.org/');
+$pdf->Image('http://localhost/pdf/bg.png',0,20,220,0,'PNG');
+$pdf->SetXY(50,20);
+$pdf->SetDrawColor(50,60,100);
+$pdf->Cell(100,10,'Learner Certificate',0,0,'C',0);
+$pdf->SetXY(15,50);
+$pdf->SetFontSize(16);
+$pdf->Write(5,'This is to certify that Mr./Ms. '.$uname.' has successfully');
+$pdf->SetXY(15,60);
+$pdf->Write(5,'completed the '.$cname.' course by Liqvid.');
+$pdf->SetXY(15,80);
+$pdf->Write(5,'Date: '.$cdate);
+$pdf->Output('filename.pdf','I');
+?> 

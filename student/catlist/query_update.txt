@@ -1,0 +1,1 @@
+UPDATE tbl_users SET sex='male', education='Graduate', user_country='India', user_state='chhattisgarh',user_city='Raipur',zip_code='492001',organization='',profession='Student',education_details='BTech',profession_experience='',learn_from='Friends/Colleague' where id = '690548'

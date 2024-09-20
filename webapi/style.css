@@ -1,0 +1,10 @@
+.personInfo{
+    width: 50% !important;
+    margin: 5rem auto !important;
+}
+
+@media screen and (max-width: 768px) {
+    .personInfo{
+        width: 100% !important;
+    }
+}

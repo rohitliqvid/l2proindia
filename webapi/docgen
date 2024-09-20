@@ -1,0 +1,81 @@
+#!/usr/bin/perl
+@allLines = `grep "^##" decree.php  | sed 's/^## //g' `;
+%decreeHash;
+$thisCategory="";
+push(@allLines,"DECREE");# For processing the last decree
+LS: foreach $line (@allLines) {
+    chomp $line;
+    if($line=~/^DECREE\s*:\s*(.*)$/) {
+        if("$thisCategory" ne "") {
+            $decreeStr .= printTableSep();
+            $tillNow = $decreeHash{$thisCategory} ;
+            $tillNow.="\n\n".$decreeStr;
+            $decreeHash{$thisCategory}  = $tillNow;
+        }
+        $thisDecree =$1;
+    
+        $decreeStr  = printTableSep();
+        $decreeStr .= printTableRow("DECREE   :   $thisDecree");
+        $decreeStr .= printTableSep();
+        next LS;
+    }
+    if($line=~/^Category/) {
+        $section = "category";
+        next LS;
+    }
+    if($line=~/^Input param/) {
+        $section = "general";
+    }
+    if("$section" eq "general") {
+        $decreeStr.=printTableRow("$line");
+    } else {
+        $line=~s/\s//g; 
+        $thisCategory = $line;
+        $section = "general";
+    }
+}
+
+foreach $key (sort keys %decreeHash) {
+    print" \n\n";
+    print printTableSep("*");
+    print printTableRow("CATEGORY : $key","*");
+    print printTableSep("*");
+    print $decreeHash{$key};
+}
+
+sub printTableRow() {
+    (my $str,my $sep) = @_;
+    @array = ( $str =~ m/.{1,54}/g );
+    my $retStr = "";
+    foreach $l (@array) {
+        $retStr .=printTableRowSingle($l,$sep);
+    }
+    return $retStr;
+}
+sub printTableRowSingle() {
+   (my $str,my $sep) = @_; 
+    my $len = length $str;
+    if("$sep" eq "") { $sep = "|"; }
+    #my $blanks = 60 - $len;
+    #my $p1 = int ($blanks / 2);
+    my $p1 = 5;
+    my $p2 = 60 -$len -$p1;
+    my $retStr = "$sep";
+    $retStr.= " "  x $p1;
+    $retStr.=$str;
+    $retStr.= " " x $p2;
+    $retStr .= "$sep\n";
+    return $retStr;
+}
+
+sub printTableSep() {
+    (my $sep) = @_;
+    my $ebl = "+";
+    if("$sep" ne "") { $ebl =$sep; };
+    if("$sep" eq "") { $sep ="-"; };
+    my $retStr = "$ebl";
+    $retStr.="$sep" x 60;
+    $retStr.="$ebl\n";
+    return $retStr;
+}
+

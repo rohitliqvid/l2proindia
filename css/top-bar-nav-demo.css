@@ -1,0 +1,152 @@
+/*------------------------------------------------------------------
+[center-nav-demo Stylesheet]
+
+Project:	Morden Clinic - Onepage Html Responsive Template
+Version:	1.1
+Last change:	26/05/2017
+Primary use:	Morden Clinic - Onepage Html Responsive Template 
+-------------------------------------------------------------------*/
+
+@media (min-width: 1024px) {
+
+
+}
+@media (max-width: 991px) and (min-width: 768px){
+.top-bar-nav .wrap-sticky nav.navbar.divinnav.sticked {
+    top: 0px;
+}
+}
+/*--- Nav top bar ---*/
+
+.top-container {
+    float: left;
+    width: 100%;
+    color: #fff;
+    padding: 5px 0;
+	background-color: #3252cd ;
+}
+.top-column-left, .top-column-right {
+    float: left;
+}
+.top-social-network, ul.contact-line, ul.register {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+ul.contact-line li:first-child {
+    border-left: none;
+    padding: 0;
+}
+ul.contact-line li, ul.register li {
+    float: left;
+    font-size: 12px;
+    list-style: none;
+    margin: 0 0 0 10px;
+    padding: 0 0 0 10px;
+    border-left: 1px solid rgba(255, 255, 255, 0.6);
+}
+.top-column-right {
+    float: right;
+}
+.top-social-network a {
+    margin: 2px;
+}
+.top-container a, .top-container a:hover, .top-container a:focus, .top-container a:active {
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+.top-container .top-column-left {
+	display: none;
+}
+.top-container .top-column-right {
+    padding-right: 15px;
+}
+.top-container {
+	font-size:13px;
+}
+}
+
+.top-bar-nav nav.divinnav.navbar-full .navbar-collapse .wrap-full-menu {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.top-bar-nav nav.navbar.divinnav ul.nav > li > a {
+    
+}
+
+.top-bar-nav nav.navbar ul.nav li.scroll.active > a, .top-bar-nav nav.navbar ul.nav > li > a:hover {
+    color: #fff !important;
+    background-color: #3252cd   !important;
+}
+
+.top-bar-nav .vertical-heading span {
+    color: #0487d9  ;
+}
+.top-bar-nav .accordionstyle_1.accordion_2 .panel .panel-heading a, .top-bar-nav .accordionstyle_1.accordion_2 .panel .panel-heading a:hover {
+    background-color: #3252cd  ;
+}
+.top-bar-nav .icon_box3_simple .simple_sub_circle {
+    background: #3252cd  ;
+}
+.top-bar-nav #about hr {
+    background: #3252cd  ;
+}
+.top-bar-nav .icon_box3_simple:hover {
+    background: #3252cd  ;
+}
+.top-bar-nav .icon_box3_simple:hover .simple_sub_circle {
+    background: #3252cd  ;
+}
+.top-bar-nav .portfolioTwo .ImageWrapper .ImageOverlay {
+    background: none repeat scroll 0 0 rgba(254, 131, 31, 0.9);
+}
+.top-bar-nav .testimonialEight .item .name {
+    color: #ccc  ;
+}
+.top-bar-nav .testimonialEight .carousel .carousel-indicators .active {
+    background-color: #fff   !important;
+}
+.top-bar-nav .dart-headingstyle-four h5 {
+    color: #3252cd  ;
+}
+.top-bar-nav .fullWidthNine .feature-wrapper h5 {
+    color: #3252cd  ;
+}
+.top-bar-nav .fullWidthNine .feature-wrapper:hover i {
+    color: #3252cd  ;
+}
+.top-bar-nav .tabSix .nav-tabs>li.active>a, .top-bar-nav .tabSix .nav-tabs>li.active>a:focus, .top-bar-nav .tabSix .nav-tabs>li.active>a:hover, .top-bar-nav .tabSix .nav-tabs>li>a:hover {
+    border-color: #3252cd  ;
+}
+.top-bar-nav .button-default {
+    background: #3252cd  ;
+}
+.top-bar-nav .counter-section i {
+    color: #3252cd  ;
+}
+.top-bar-nav .packagestyle_one:hover {
+    background: #3252cd  ;
+}
+.top-bar-nav .btn-link {
+    color: #3252cd  ;
+}
+
+
+@media (max-width: 992px){
+.top-bar-nav nav.navbar.divinnav .navbar-nav > li > a {
+    border-bottom: none;
+    border-top: none;
+    margin-bottom: 0px;
+    width: auto;
+}
+}
+.top-bar-nav nav.navbar.divinnav .navbar-toggle {
+    background-color: #3252cd ;
+}
+.top-bar-nav nav.navbar.no-background ul.nav > li > a:hover{
+    background-color: #3252cd   !important;
+}
+
+
+
+

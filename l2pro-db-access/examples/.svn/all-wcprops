@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/examples
+END
+signon.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/examples/signon.php
+END
+upgrade_tables_mysql_4_1_2+.sql
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/examples/upgrade_tables_mysql_4_1_2+.sql
+END
+openid.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/examples/openid.php
+END
+signon-script.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/examples/signon-script.php
+END
+config.manyhosts.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/examples/config.manyhosts.inc.php
+END
+create_tables.sql
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/examples/create_tables.sql
+END
+swekey.sample.conf
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/examples/swekey.sample.conf
+END
+create_tables_drizzle.sql
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/Liqvid_Elearning_Services/Project555/svn/!svn/ver/256/Server/phpMyAdminRDS/examples/create_tables_drizzle.sql
+END

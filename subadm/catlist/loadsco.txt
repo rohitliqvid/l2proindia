@@ -1,0 +1,69 @@
+Array
+(
+    [0] => Array
+        (
+            [id] => 43
+            [userid] => 4
+            [scormid] => 3
+            [scoid] => 3
+            [element] => cmi.core.lesson_status
+            [value] => completed
+            [timemodified] => 1591944240
+        )
+
+    [1] => Array
+        (
+            [id] => 50
+            [userid] => 4
+            [scormid] => 3
+            [scoid] => 3
+            [element] => cmi.core.lesson_location
+            [value] => 1^54
+            [timemodified] => 1591944240
+        )
+
+    [2] => Array
+        (
+            [id] => 51
+            [userid] => 4
+            [scormid] => 3
+            [scoid] => 3
+            [element] => cmi.core.score.raw
+            [value] => 0
+            [timemodified] => 1579696057
+        )
+
+    [3] => Array
+        (
+            [id] => 52
+            [userid] => 4
+            [scormid] => 3
+            [scoid] => 3
+            [element] => cmi.suspend_data
+            [value] => 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+            [timemodified] => 1591944240
+        )
+
+    [4] => Array
+        (
+            [id] => 53
+            [userid] => 4
+            [scormid] => 3
+            [scoid] => 3
+            [element] => cmi.core.session_time
+            [value] => 14:31:49
+            [timemodified] => 1591944240
+        )
+
+    [5] => Array
+        (
+            [id] => 54
+            [userid] => 4
+            [scormid] => 3
+            [scoid] => 3
+            [element] => cmi.core.total_time
+            [value] => 16:35:19.00
+            [timemodified] => 1591944240
+        )
+
+)

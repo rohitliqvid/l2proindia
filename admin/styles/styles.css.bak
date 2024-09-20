@@ -1,0 +1,340 @@
+A:link {  COLOR: #227AA9; text-decoration: underline}
+A:visited { COLOR: #227AA9; text-decoration: underline }
+A:active {  COLOR: #227AA9; text-decoration: underline }
+A:hover {  COLOR: #227AA9; text-decoration: underline} 
+
+
+a.loginitems:visited {
+font-family: Arial;
+font-size: 12px;
+text-decoration: underline;
+font-style: normal;
+font-weight: normal;
+font-variant: normal;
+color: #227AA9;
+}
+
+a.loginitems:link {
+font-family: Arial;
+font-size: 12px;
+text-decoration: underline;
+font-style: normal;
+font-weight: normal;
+font-variant: normal;
+color: #227AA9;
+}
+
+a.loginitems:hover {
+font-family: Arial;
+font-size: 12px;
+text-decoration: underline;
+font-style: normal;
+font-weight: normal;
+font-variant: normal;
+color: #227AA9;
+}
+
+a.loginitems:active {
+font-family: Arial;
+font-size: 12px;
+text-decoration: underline;
+font-style: normal;
+font-weight: normal;
+font-variant: normal;
+color: #227AA9;
+}
+
+.normal {
+	font-family: Arial;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+
+.released {
+	font-family: Arial;
+	font-size: 11px;
+	color: green;
+}
+
+.nreleased {
+	font-family: Arial;
+	font-size: 11px;
+	color: #F10033;
+}
+
+.submit_button_normal {
+	 BACKGROUND:#02517c;
+	 COLOR: white; 
+	 font-weight: Bold;
+	 FONT-FAMILY: Arial;  
+	 TEXT-DECORATION: none;
+	 height:22px;
+
+}
+
+.submit_button_over {
+	 BACKGROUND:#02517c;
+	 COLOR: white;
+	 font-weight: Bold;
+	 FONT-FAMILY: Arial;  
+	 TEXT-DECORATION: none;
+	  height:22px;
+}
+
+
+
+.clsLoginButton_Normal
+{
+ 
+    background-image:       url(../graphics/login_n.gif);
+    background-repeat:      no-repeat;
+    border-style:           none;
+    background-position:    center center;
+
+    width:                  57px;
+    height:                 24px;
+}
+
+.clsLoginButton_MouseOver
+{
+    background-image:       url(../graphics/login_o.gif);
+    background-repeat:      no-repeat;
+    border-style:           none;
+    background-position:    center center;
+    width:                  57px;
+    height:                 24px;
+}
+
+
+.logoTD
+{
+    background-image:       url(../graphics/banner.jpg);
+    background-repeat:      no-repeat;
+    border-style:           none;
+	height: 101px;
+}
+
+.loginline
+{
+	background-image:       url(../graphics/bottom_line.jpg);
+    background-repeat:      repeat;
+	height:                 2px;
+}
+
+.loginbox
+{
+	background-image:       url(../graphics/Login_SCB.jpg);
+    background-repeat:      no-repeat;
+}
+
+.pwdbox
+{
+	background-image:       url(../graphics/forgotpass.jpg);
+    background-repeat:      no-repeat;
+}
+
+.reqbox
+{
+	background-image:       url(../graphics/system_requirment_base.jpg);
+    background-repeat:      no-repeat;
+
+}
+
+
+.instruction {
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: bold;
+	color: #375F93;
+}
+.leftpanel {
+
+	background: #FFFFFF;
+}
+.leftpanelyellow {
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFF99;
+}
+.welcometext {
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: bold;
+	color: #003366;
+}
+
+.welcometext2 {
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: bold;
+	color: #000000;
+}
+.content {
+	font-family: Arial;
+	font-size: 12px;
+	color: #000000;
+}
+.contentItaWhite {
+	font-family: Arial;
+	font-size: 14px;
+	color: #FFFFFF;
+	font-style:italic;
+	padding-left:10px;
+}
+.contentGray {
+	font-family: Arial;
+	font-size: 12px;
+	color: #666666;
+}
+
+.contentWhite {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.mandatory {
+	font-family: Arial;
+	font-size: 11px;
+	color: #F10033;
+	font-weight: normal;
+}
+.ContentBold {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+}
+
+
+.MenuBold {
+	font-family: Arial;
+	font-size: 12px;
+	color: #227AA9;
+	border-right: 1pt solid #3BA450;
+}
+
+.lyrborder {
+	border: thin double #3372b4;
+	background-color: #FFFFFF;
+
+}
+/*
+.tblborder {
+	border: 1pt #299FD1 solid;
+	background-color: #EEF5FB
+}
+*/
+
+.tblBorder2{
+	
+	border: 1pt solid #02517c;
+}
+
+.tblborder {
+	
+	background-color: #38ab4e;
+}
+
+.tblborderMenu {
+	
+	background-color: #3BA450;
+}
+
+
+.inputclslogin {
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 12px;
+	color: #000000;
+	border: 0.1pt #000000 solid;
+	padding-left: 2pt;
+	vertical-align:middle;
+	background-color:#F3F3F5;
+
+}
+
+.inputcls {
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 12px;
+	color: #000000;
+	border: 0.1pt #B2B2B2 solid;
+	padding-left: 2pt;
+	vertical-align:middle;
+	background-color:#FFFFFF;
+
+}
+
+.topbg{
+background-image:url(../graphics/top_bg_img.jpg);
+background-repeat:repeat;
+}
+
+.tdbg{
+background-image:url(../graphics/bg_img.jpg);
+background-repeat:repeat;
+background-color:#DBE9EE;
+}
+
+tr.off {
+background: #FFFFFF;
+}
+
+tr.menuOff {
+background: #FFFFFF;
+
+}
+
+tr.menuOn {
+background: #EBF5EB;
+cursor: hand;
+}
+
+tr.menuClicked {
+background: #EBF5EB;
+}
+
+.tblTitle {
+background: #02517c;
+
+}
+
+.tblWelcome {
+background: #FFFFFF;
+
+}
+
+.WelcomeText {
+	font-family: Arial;
+	font-size: 12px;
+	color: #000000;
+}
+
+
+
+.contentBG {
+background: #EBF5EB;
+
+}
+
+.searchPanelBG {
+background: #FA9B36;
+
+}
+
+.pageTitle {
+background: #F0F0F0;
+
+}
+
+.row1
+{
+background-color: #bae3e3;
+}
+
+.row2
+{
+background-color: #FFFFFF;
+}

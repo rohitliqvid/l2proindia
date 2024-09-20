@@ -1,0 +1,69 @@
+Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [userid] => 1
+            [scormid] => 1
+            [scoid] => 1
+            [element] => cmi.core.lesson_status
+            [value] => completed
+            [timemodified] => 1665142523
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [userid] => 1
+            [scormid] => 1
+            [scoid] => 1
+            [element] => cmi.core.lesson_location
+            [value] => 1^37
+            [timemodified] => 1707479554
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [userid] => 1
+            [scormid] => 1
+            [scoid] => 1
+            [element] => cmi.core.score.raw
+            [value] => 0
+            [timemodified] => 1579679375
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [userid] => 1
+            [scormid] => 1
+            [scoid] => 1
+            [element] => cmi.suspend_data
+            [value] => 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+            [timemodified] => 1665142523
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [userid] => 1
+            [scormid] => 1
+            [scoid] => 1
+            [element] => cmi.core.session_time
+            [value] => 00:00:20
+            [timemodified] => 1707479554
+        )
+
+    [5] => Array
+        (
+            [id] => 6
+            [userid] => 1
+            [scormid] => 1
+            [scoid] => 1
+            [element] => cmi.core.total_time
+            [value] => 00:08:58.00
+            [timemodified] => 1707479554
+        )
+
+)

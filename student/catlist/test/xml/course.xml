@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<course  courseName=''  courseDescription='Soft-Skill Course' audio='' leftPanel ='1'>
+  <module id="1" moduleName='basic'>
+	<topic id='1' pagename="index.html" name='Lesson 1 – Introduction and Patents' isAssessment='no'>
+	<page id='1' name='Introduction' pagename='page1.html'></page>
+	<page id='2' name='Role of Intellectual Property in Growing Your Business' pagename='page2.html'></page>
+	<page id='3' name='Types of IPR' pagename='page7.html'></page>
+	<page id='4' name='Features of Intellectual Property – Intangible Property' pagename='page3.html'></page>
+	<page id='5' name='Brain Teaser 1' pagename='page4.html'></page>
+	<page id='7' name='Assessment' pagename='page8.html'></page>
+	
+	</topic>
+	<topic id='2' pagename="index.html"  name='Lesson 2 - Trademarks and Geographical Indications' isAssessment='no'>
+	<page id='1' name='Introduction' pagename='page1.html'></page>
+	</topic>
+  </module>
+</course>
